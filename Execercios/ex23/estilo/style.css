@@ -1,0 +1,38 @@
+@charset "UFT-8";
+
+table 
+{
+    width: 400px;
+    height: 100vh;
+    border-collapse: collapse;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+}
+th,td{
+    border: 1px solid black;
+    text-align: center;
+}
+ caption {
+    text-align: center;
+    padding: 10px; 
+    font-weight: bold;   
+ 
+}
+thead,tfoot {
+    background-color: gray;
+}
+.num{
+    text-align: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(74, 29, 189);
+}
+tbody tr:nth-child(odd){
+    background-color: rgb(202, 66, 17);
+}
