@@ -1,2 +1,6 @@
 @charset "UFT-8";
 /*Aparelho deitado (Landascape)*/
+body {
+  background-image: url('../imagem/cev-landscape.jpg');
+  background-position: left bottom;
+}
