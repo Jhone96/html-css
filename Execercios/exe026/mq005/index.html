@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    
+    <title>media query</title>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opcão 2</a></li>
+                <li><a href="#">Opcão 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Querie</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus in facilis ab perferendis provident iste sequi neque, dicta, odit culpa est. Aspernatur deleniti illo nobis, impedit tenetur repudiandae eaque natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab cum sed maxime incidunt id nemo nisi numquam aliquid eos similique dolorem tempore at corporis alias, aut fugiat placeat atque fugit.</p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum sint at fugit officiis modi quis quo quod esse impedit ratione, non vero, suscipit nam, reiciendis iure natus. Assumenda, nam eum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, odit velit minima incidunt corporis animi eum sint nobis ipsum aut autem a veritatis earum cupiditate repellat consectetur sed porro facere.
+            </p>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis deleniti doloribus excepturi, cupiditate voluptas dolores ratione quaerat quo cum dignissimos aliquam architecto labore dolorem vitae magnam temporibus culpa, commodi numquam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tempora, iusto a mollitia, exercitationem commodi porro nisi quia dolores eos dolor natus unde libero voluptas minus quisquam vero deleniti accusamus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, iste vitae molestias quam recusandae optio fugiat autem reiciendis odit quisquam officiis tenetur hic temporibus cupiditate distinctio omnis nisi non magnam.
+            </p>
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores atque molestiae recusandae, corporis unde reiciendis assumenda a quibusdam itaque, ab maiores nemo accusamus suscipit amet? Nemo tempore sint nisi quam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima corrupti sapiente quidem! Ad qui quasi eius. Reprehenderit asperiores explicabo ipsam adipisci eum eius mollitia nostrum optio incidunt, ea cumque consectetur!</p>
+
+        </article>
+    </main>
+    <script>
+        function clickMenu(){
+           if (itens.style.display == 'block'){
+            itens.style.display = 'none'
+           }else {
+            itens.style.display = 'block'
+
+        }
+    }
+    </script>
+</body>
+</html>
