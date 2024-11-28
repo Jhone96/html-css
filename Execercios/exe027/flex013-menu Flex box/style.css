@@ -24,6 +24,9 @@ header > h1{
 nav {
     border:  1px dotted black;
 }
+header > nav > a {
+    background-color: green;
+}
 main {
     background-color: white;
     margin: 10px;
