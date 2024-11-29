@@ -23,4 +23,43 @@ header,section.normal {
 section.flex-content{
    background-color: rgba(184, 184, 184, 0.33);
    padding: 20px;
+
+   display: flex;
+   flex-flow: column nowrap;
+}
+ section > article {
+    border:  2px dashed green;
+}
+article.text-media{
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+article.media-text{
+
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-between;
+}
+article > div.text {
+    flex: 1 1 500px;
+
+    border: 2px dashed brown;
+}
+article > div.media{
+    flex: 1 0 400px ;
+
+    border: 2px dashed brown;
+}
+div.media > img {
+
+    display: block;
+    margin: auto;
+}
+div.media > iframe {
+    display: block;
+
+    margin: auto;
+    padding: 0px 20px;
 }
